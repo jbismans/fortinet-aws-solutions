@@ -7,7 +7,7 @@ This is a cloudformation template that will create the following
 - 3 VPC
   - Security hub VPC which includes:
     - 1x Gateway Load Balancer
-    - 2x Gateway Load Balancer endpoint in two availability zones
+    - 2x Gateway Load Balancer endpoints in two availability zones
     - 2x FortiGates in standalone Active/Active (firmware 6.4.4 with PAYG)
     - 1x Internet Gateway
   - Spoke VPC which includes:
